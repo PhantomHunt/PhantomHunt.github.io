@@ -1,0 +1,142 @@
+html
+{ 
+	background-color:black;
+}
+
+video
+{
+	height:245px;
+	min-width:776px;
+	padding:0px;
+	object-fit:fill;
+}
+
+img
+{
+	height:220px;
+	width:440px;
+	padding:3px;
+	float:left;
+	border-radius:15px;	
+}
+
+.box
+{
+	margin:4px;
+	padding:13px;
+	min-width:29%;
+	min-height:130px;
+	border:2px groove goldenrod ;
+	margin-bottom:10px;
+	border-bottom-right-radius:25px;
+	border-top-left-radius:25px;
+	text-align:center;
+	background-image:url("music2.jpg");	
+	display: inline-block;
+}
+
+#header
+{	
+	text-align:right;
+	min-width:1236px;
+}
+
+#hrdiv
+{	
+	position:relative;
+	margin-left:448px;	
+	padding:3px;	
+}
+
+#hldiv
+{
+	position:relative;
+	float:left;
+	display:block;
+}
+
+#hldiv span
+{
+	font-family:"monotype corsiva";
+	color:black;
+	font-size:25px;	
+	padding-right:5px;
+}
+
+#ldiv
+{
+	position:relative;
+	margin:0px;
+	float:left;
+}
+
+#ldiv ul
+{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	float:left;
+}
+
+#ldiv ul li a
+{	
+	
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	text-align:center;
+	font-size:15px;
+	display:block;
+	padding: 8px 16px;
+	/*border:2px solid;*/
+	background-image:url('music3.jpg');
+	border-radius:8px;
+	margin:5px;
+	margin-top:12px;
+	margin-bottom:25px;
+	transition-duration:0.8s;
+	width:120px;
+}
+
+#ldiv ul li a:hover
+{	
+	transform: rotate(360deg);
+	padding:15px 22px;
+	border-radius:50%;
+	/*border:2px solid plum;*/
+}
+
+#ldiv ul li a::-moz-focus-inner
+{
+	border: 0;
+}
+
+#rdiv
+{	
+	position:relative;
+	margin-left:180px;	
+	padding:3px;
+	min-width:1050px;
+	text-align:center;
+}
+
+#rdiv span
+{
+	color:gray;
+}
+#rdiv h2
+{
+	color:goldenrod;
+	font-family:"VERDANA";
+	font-size:18px;
+	
+}
+#footer
+{
+	color:white;
+	text-align:right;
+	font-size:18px;
+	min-width:1236px;
+	clear:left;
+	
+}

@@ -1,0 +1,57 @@
+#c1
+{
+	border:2px pink groove;
+	position:relative;
+	margin-right:20px;
+	text-align:center;
+	float:left;
+	width:200px;
+}
+
+#c2
+{
+	border:2px red groove;
+	margin-right:20px;
+	text-align:center;
+	position:relative;
+	float:left;
+	width:200px;	
+}
+
+#c3
+{
+	border:2px blue groove;
+	text-align:center;
+	display:inline-block;
+	margin-right:20px;
+	position:relative;
+	float:left;
+	width:200px;	
+}
+
+#r1
+{
+	border:2px green groove;
+	padding:10px;
+	display:inline-block;
+	margin:20px;
+	width:100px;
+}
+
+#r2
+{
+	border:2px green groove;
+	margin:20px;
+	display:inline-block;
+	width:100px;
+	padding:10px;
+}
+
+#r3
+{
+	border:2px green groove;
+	width:100px;
+	margin:20px;
+	display:inline-block;
+	padding:10px;
+}

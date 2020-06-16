@@ -1,0 +1,43 @@
+#r1
+{
+	position:relative;
+	float:left;
+	width:80px;
+	
+}
+
+#r2
+{
+	position:relative;
+	float:left;
+	width:80px;
+	
+}
+
+#r3
+{
+	display:inline-block;
+	position:relative;
+	width:80px;
+	font-size:20px;
+	
+}
+
+#c1
+{
+	border:1px green groove;
+	padding:10px;
+	font-size:20px;
+}
+
+#c2
+{
+	border:1px green groove;
+	padding:10px;
+}
+
+#c3
+{
+	border:1px green groove;
+	padding:10px;
+}
