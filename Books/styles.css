@@ -1,0 +1,236 @@
+html
+{
+	font-family: "comic sans ms";
+	background-color:black;
+}
+
+#header
+{
+	position:relative;
+	min-width:1300px;
+	height:120px;
+	text-align:center;
+}
+
+#header img
+{
+	position:relative;
+	float:left;
+	margin:10px;
+}
+
+#header h1
+{
+	position:relative;
+	margin-top:15px;
+	padding:20px;
+	font-size:50px;
+	color:white;
+	background:grey;
+	border-radius:20px;
+	font-family:broadway;
+	text-align:center;
+	display:inline-block;
+}
+
+#nav ul {
+    list-style-type: none;
+	margin:0px;
+	min-width:1300px;
+	margin-bottom:0px;
+    padding:2px;
+	height:50px;	
+}
+
+#nav li 
+{
+    float: left;
+}
+
+#nav li a
+{
+    display: inline-block;
+    color: white;	
+	border-radius:2px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;	
+}
+
+#nav li a:hover
+{
+    background-color: goldenrod;
+	color:black;
+}
+
+#ldiv
+{
+	margin:0px;
+	width:200px;
+	position:relative;
+	float:left;
+	max-height:441px;
+	overflow:auto;
+	text-align:center;
+}
+
+#ldiv h2
+{
+	font-size:30px;
+	color:orangered;
+	margin:0px;
+}
+
+#ldiv::-webkit-scrollbar
+{
+    width: 13px;
+}
+
+#ldiv::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+	background-image:url('star.png');
+}
+
+#ldiv:hover::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px 
+						rgba(0,0,0,0.9);
+	border:2px groove black;
+	background: #444444;
+}
+ 
+#ldiv::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;	
+	border:2px groove black;
+	background-image: -webkit-gradient(linear,
+					   left bottom,
+					   left top,
+					   color-stop(0.44, rgb(122,153,217)),
+					   color-stop(0.72, rgb(73,125,189)),
+					   color-stop(0.86, rgb(28,58,148)));
+}
+
+#ldiv ul
+{
+	margin:0px;
+	display:inline-block;
+	padding:5px;
+	list-style-type:none;
+}
+
+#ldiv ul li a
+{	
+	background-color:lightsteelblue;
+	text-decoration:none;
+	color:black;
+	font-size:14px;
+	display:block;
+	padding:16px 24px;
+	border-radius:100%;
+	margin-bottom:-25px;
+}
+
+#ldiv ul li a:hover
+{
+	background-color:mediumseagreen;
+}
+
+#rdiv
+{
+	position:absolute;
+	margin-left:205px;
+	max-height:374px;
+	min-width:1110px;
+	min-height:374px;
+	overflow:auto;
+	padding:10px;
+	font-size:20px;
+	text-align:center;
+}
+
+#rdiv p
+{
+	text-align:justify;
+	font-size:18px;
+	font-family:verdana;
+	color:white;	
+}
+
+#rdiv img
+{
+	float:left;
+	margin:5px;
+	border:3px groove grey;
+	height:300px;
+	width:200px;
+}
+
+#rdiv h2
+{
+	text-align:center;
+	text-decoration:underline;
+	color:forestgreen;
+	font-size:25px;
+}
+
+#rdiv h3
+{
+	text-align:left;	
+	color:lightsteelblue;
+	font-size:25px;
+}
+#rdiv::-webkit-scrollbar
+{
+    width: 13px;
+}
+
+#rdiv::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+	background-image:url('star.png');
+}
+
+#rdiv:hover::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px 
+						rgba(0,0,0,0.9);
+	border:2px groove black;
+	background: #444444;
+}
+ 
+#rdiv::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;	
+	border:2px groove black;
+	background-image: -webkit-gradient(linear,
+					   left bottom,
+					   left top,
+					   color-stop(0.44, rgb(122,153,217)),
+					   color-stop(0.72, rgb(73,125,189)),
+					   color-stop(0.86, rgb(28,58,148)));
+}
+
+#firstimage img
+{
+	height:300px;
+	width:600px;
+	margin:50px;
+	margin-left:200px;
+	border:8px groove brown;
+}
+
+
+
+#footer
+{
+	color:royalblue;
+	min-width:1300px;
+	font-size:10px;
+	position:relative;
+	text-align: right;
+	height:15px;
+	clear:left;
+	margin-top:-3px;
+}
